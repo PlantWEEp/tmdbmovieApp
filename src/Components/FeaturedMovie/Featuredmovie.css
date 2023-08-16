@@ -1,0 +1,29 @@
+button.play,
+button.playlist {
+  padding: 12px 40px;
+  background: #2ecc71;
+  outline: 0;
+  box-shadow: none;
+  border: none;
+  border-radius: 23px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 17px;
+}
+button.playlist {
+  background-color: #080808;
+}
+.btn {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.pspider {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+}

@@ -1,0 +1,9 @@
+.banner {
+  background-color: var(--primary-color);
+  text-align: center;
+  height: 325px;
+}
+.banner h1 {
+  padding: 102px 0;
+  color: #ffff;
+}

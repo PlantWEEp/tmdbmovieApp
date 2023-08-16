@@ -1,0 +1,41 @@
+.imagedrop img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 12px 1px #00000045;
+}
+.filterPopular {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 40px;
+  position: relative;
+}
+.imgPopular h4 {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.imgPopular {
+  margin: 10px;
+}
+.headingfilter {
+  padding: 20px 0;
+}
+/* button */
+.filterbtn button {
+  margin-right: 2rem;
+  min-width: 5rem;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  border: 1px solid #000;
+}
+button .active {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}

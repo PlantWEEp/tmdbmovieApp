@@ -1,0 +1,21 @@
+.footers {
+  background: var(--secondary-color);
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footers a {
+  color: #fff;
+}
+.footer_line {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+@media only screen and (max-width: 499px) {
+  .footer_line {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

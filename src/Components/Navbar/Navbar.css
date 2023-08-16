@@ -1,0 +1,60 @@
+.wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+ul.listedmenu {
+  display: flex !important;
+  list-style: none;
+  gap: 26px !important;
+  align-items: center !important;
+}
+ul.listedmenu a {
+  color: #000000;
+}
+button.Langu {
+  padding: 9px 37px;
+  border-radius: 52px;
+  border-color: transparent;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: var(--heading-color);
+  font-weight: 700;
+}
+.bg-wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 1111;
+  transition: 0.5s ease-out;
+}
+.bg-wrapper.active {
+  background: transparent;
+  box-shadow: none;
+  transition: 0.5s ease-out;
+  box-shadow: 0 0 6px 5px #ffffff29;
+  background-color: #080808;
+  z-index: 11111;
+}
+.bg-wrapper a,
+.bg-wrapper.active a {
+  color: #ffffff !important;
+}
+.text_heading {
+  color: #ffffff;
+  padding: 14rem 0;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.mobliescreen {
+  color: #fff !important;
+  font-size: 26px;
+  display: none;
+}
+@media only screen and (max-width: 743px) {
+  .mobliescreen {
+    display: block !important;
+  }
+}
